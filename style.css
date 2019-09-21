@@ -1,0 +1,91 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(182,148,233,1) 100%);
+    font-family: 'Cabin', sans-serif;
+
+    padding: 30px;
+}
+
+h1 {
+    text-shadow: 2px 2px 4px #888888;
+}
+
+.container_div {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+    padding: 1rem 5rem 1rem 5rem;
+    border-radius: 20px;
+}
+
+.modificarButton {
+    font-family: 'Cabin', sans-serif;
+    background-color: transparent;
+    border: transparent;
+    cursor: pointer;
+
+    padding-left: 30px;
+}
+
+.modificarButton:hover {
+    font-weight: bold;
+    text-shadow: 0px 0px 2px #888888;
+}
+
+.eliminarButton {
+    font-family: 'Cabin', sans-serif;
+    background-color: transparent;
+    border: transparent;
+    cursor: pointer;
+
+    padding-left: 30px;
+}
+
+.eliminarButton:hover {
+    font-weight: bold;
+    text-shadow: 0px 0px 2px #888888;
+}
+
+.agregarBoton {
+	box-shadow:inset 0px 1px 0px 0px #fce2c1;
+	background:linear-gradient(to bottom, #ffeb77 5%, #fbd425 100%);
+	background-color:#ffeb77;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:100px;
+	border:1px solid #eed64f;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #ccb652;
+}
+
+.agregarBoton:hover {
+	background:linear-gradient(to bottom, #fbc225 5%, #ffdf77 100%);
+	background-color:#fbdb25;
+}
+
+.agregarBoton:active {
+	position:relative;
+	top:1px;
+}
+
+.input {
+    margin: 1rem;
+    padding: none;
+    border: none;
+    width: 15rem;
+}
+
+.input_div {
+    padding: 20px;
+}
